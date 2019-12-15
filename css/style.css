@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Arial&display=swap');
+
+.body{
+    background-color:#D2D2D2;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.page,
+.header,
+.presentation,
+.pictures__list-items,
+.pictures__figure{
+    margin: 0 auto;
+}
+
+.presentation__figure,
+.persons__item,
+.footer{
+    background-color: #EDEDED;
+}
+
+.header,
+.presentation{
+    width: 30rem;
+}
+
+.presentation__heading,
+.pictures__heading{
+    font-size:16px;
+}
+
+
+.presentation__heading,
+.pictures__figcaption{
+    font-weight: 700;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    background-color:#FFF;
+    width:50rem;
+    border:solid 1px #000;
+    padding: 1rem;
+}
+
+
+.header__heading{
+    border-top:solid 1px #8C030C;
+    border-bottom:solid 1px #8C030C;
+    font-family: 'Oswald', sans-serif !important;
+    font-size:40px;
+}
+.main{
+     flex: 1;
+}
+
+.presentation__heading{
+    background-color:#CD7677 ;
+    color:#fff;
+    width:fit-content;
+    padding:0.5rem 1rem;
+    margin:0.5rem auto;
+}
+
+.presentation__figure{
+    overflow: auto;
+    margin:0;
+    padding: 1rem;
+    text-align: left;
+
+}
+
+.presentation__illustration-picture{
+    float: right;
+}
+
+.persons__list-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.persons__item{
+    display: inline;
+    color: #502B2F;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    margin:0.3rem 0.3rem;
+    border-radius: 50px;
+    line-height: 2rem;
+    font-size:14px;
+}
+
+.pictures__list-items{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border:solid 1px #d3d3d3;
+    width:40rem;
+    padding: 1rem;
+}
+
+.pictures__image{
+    width:200px;
+}
+
+.footer{
+    height:8rem;
+    margin-top:2rem;
+}
